@@ -2,4 +2,37 @@
 
 /* 回答はここに書いてね */
 
+.comment {
+  width: 500px;
+  padding: 20px;
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 30px;
+  margin: 0 auto;
+  border: 5px solid #222;
+  position: relative;
+}
+
+.comment:before {
+  content: "";
+  position: absolute;
+  bottom: -39px;
+  left: 29px;
+  /* margin-left: -25px; */
+  border: 21px solid transparent;
+  border-top: 21px solid #FFF;
+  z-index: 2;
+}
+
+.comment:after {
+  content: "";
+  position: absolute;
+  bottom: -50px;
+  left: 25px;
+  /* margin-left: -29px; */
+  border: 25px solid transparent;
+  border-top: 25px solid #222;
+  z-index: 1;
+}
+
 /* 回答はここに書いてね */

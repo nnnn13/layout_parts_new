@@ -1,5 +1,36 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.table {
+  table-layout: fixed;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.table th, tbody td {
+  border: solid #dedede 1px;
+  padding: 10px 0;
+}
+
+.table th {
+  background-color: #2244aa;
+  color: #fff;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.tbody td {
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.table tr:nth-child(2n):not(:first-child) {
+  background-color: #ecf1f2;
+}
+
+.tbody tr:last-child {
+  border-top: dashed #000 2px;
+}
 
 /* 回答はここに書いてね */

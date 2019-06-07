@@ -32,26 +32,26 @@
           <!-- 新たにタグは追加しなくてもできます。 -->
           <div class="q8 q8--btn">
             <p class="q8__title">ー small ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="small ao">common</div>
+            <div class="small aka">error</div>
+            <div class="small hai">disabled</div>
+            <div class="small siro">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー middle ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="middle ao">common</div>
+            <div class="middle aka">error</div>
+            <div class="middle hai">disabled</div>
+            <div class="middle siro">shadow</div>
           </div>
 
           <div class="q8 q8--btn">
             <p class="q8__title">ー large ー</p>
-            <div>common</div>
-            <div>error</div>
-            <div>disabled</div>
-            <div>shadow</div>
+            <div class="large ao">common</div>
+            <div class="large aka">error</div>
+            <div class="large hai">disabled</div>
+            <div class="large siro">shadow</div>
           </div>
           <!-- 回答はここに書いてね -->
         </div>
@@ -99,7 +99,82 @@
           <!-- 回答はここに書いてね -->
           <!-- すでについてるクラスにはstyleを指定しない。styleを付ける場合は自分で新たにクラスをつけること -->
           <div class="q8">
-            
+            <form class="q8_form" action="file:///Users/mmntmr/Documents/layout_parts_new/layout_parts/q8/index.html" method="POST">
+              <div class="q8_title">
+                <p class="q8_title_text">Form Exercise</p>
+              </div>
+              <div class="clearfix">
+                <div class="q8_main">
+                  <ul class="q8_main_item">
+
+                    <li class="clearfix">
+                      <p class="list">名前<span class="name2">*</span></p>
+                      <div class="name3">
+                       <input class="name4 init" type="text" name="name" required>
+                      </div>
+                    </li>   <!-- name -->
+
+                    <li class="clearfix">
+                      <p class="list">性別</p>
+                      <div class="name3">
+                        <label class="q8_radio">
+                          <input class="radio_btn" type="radio" name="jender" value="male">
+                          <span class="radiobox">男性</span>
+                        </label>
+                        <label class="q8_radio">
+                          <input class="radio_btn" type="radio" name="jender" value="female">
+                          <span class="radiobox">女性</span>
+                        </label>
+                      </div> 
+                    </li>  <!-- jender -->
+
+                    <li class="clearfix">
+                        <p class="list">出身</p>
+                        <div class="name3 select">
+                          <select class="name4 init select_body" name="country" id="">
+                            <option value="tokyo">東京</option>
+                            <option value="saitama">埼玉</option>
+                            <option value="chiba">千葉</option>
+                            <option value="kanagawa">神奈川</option>
+                            <option value="ishikawa">石川</option>
+                          </select>
+                        </div>
+                    </li>  <!-- country -->
+
+                    <li class="clearfix">
+                        <p class="list">Eメール<span class="name2">*</span></p>
+                        <div class="name3">
+                            <input class="name4 init" type="email" name="mail" placeholder="ex) hoge@gmail.com">
+                           </div>
+                    </li>  <!-- mail -->
+
+                    <li class="clearfix">
+                        <p class="list">電話番号</p>
+                        <div class="name3">
+                          <input class="name4 init" type="text" name="tel" placeholder="ex) 08012345678">
+                        </div>
+                    </li>  <!-- tel -->
+
+                    <li class="clearfix">
+                      <div class="name3">
+                        <div class="q8_checkbox">
+                          <input class="checkbox_btn" id="check" type="checkbox" name="check" value="check"><label for="check" class="checkbox">20歳以上です</label>
+                        </div>
+                      </div>  
+                    </li>  <!-- age -->
+
+                    <li class="clearfix">
+                      <div class="send">
+                        <input class="send_btn init" type="submit"></input>
+                      </div> <!-- send -->
+                    </li>
+                  </ul>
+                </div>
+                <div class="q8_side">
+                  <textarea class="comment init" name="comment" placeholder="何かあれば入力してください。"></textarea>
+                </div>
+              </div>
+            </form>
           </div>
           <!-- 回答はここに書いてね -->
         </div>

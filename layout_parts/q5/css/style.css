@@ -2,4 +2,121 @@
 
 /* 回答はここに書いてね */
 
+/* １と８の上下、::afterの使い所 */
+
+/* 9 */
+.indigo {
+  background-color: #2b69a3;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+} 
+
+.gray {
+  width: 500px;
+  height: 500px;
+  background-color: #ecf1f2;
+  padding: 40px;
+  margin: 0 auto;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.pink, .turquoise, .skin, .brown, .soil, .vanilla, .discord, .water, .indigo {
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.pink, .turquoise, .skin, .brown, .soil, .vanilla, .discord, .water {
+  position: absolute;
+}
+
+.pink:after {
+  width: 20px;
+  height: 20px;
+  background-color: #ffefd3;
+  position: absolute;
+  top: 0;
+  right: 0; 
+  content: "";
+  /* z-index: 9; */
+
+}
+
+/* 8 */
+.pink {
+  background-color: #de70cf;
+  top: 120px;
+  left: 120px;
+  z-index: 8;
+}
+
+/* 5 */
+.turquoise {
+  background-color: #9fd6d2;
+  top: 360px;
+  left: 200px;
+  z-index: 5;
+}
+
+/* 1 */
+.skin {
+  background-color: #ffefd3;
+  top: 40px;
+  left: 200px;
+  z-index: 1;
+}
+
+/* 7 */
+.brown {
+  background-color: #deae70;
+  top: 200px;
+  left: 40px;
+  z-index: 7;
+}
+
+/* 4 */
+.soil {
+  background-color: #8b7a5e;
+  top: 280px;
+  left: 280px;
+  z-index: 4;
+}
+
+/* 6 */
+.vanilla {
+  background-color: #fffee4;
+  top: 280px;
+  left: 120px;
+  z-index: 6;
+}
+
+/* 2 */
+.discord {
+  background-color: #7084de;
+  top: 120px;
+  left: 280px;
+  z-index: 2;
+}
+
+/* 3 */
+.water {
+  background-color: #d0ecea;
+  top: 200px;
+  left: 360px;
+  z-index: 3;
+}
+
+/* .eight {
+  z-index: 2;
+} */
+
+/* .one {
+  z-index: 9;
+} */
+
 /* 回答はここに書いてね */
