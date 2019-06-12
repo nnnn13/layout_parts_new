@@ -18,11 +18,13 @@
 .left {
   float: left;
   margin-right: 20px; 
+  margin-bottom: 10px;
 }
 
 .right {
   float: right;
   margin-left: 20px;
+  margin-bottom: 10px;
 }
 
 .contents {

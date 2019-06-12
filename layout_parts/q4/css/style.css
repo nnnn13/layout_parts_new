@@ -2,19 +2,23 @@
 
 /* 回答はここに書いてね */
 
-.top, .bottom {
+.back {
   padding: 20px;
+
+}
+
+.gray {
   width: 100%;
   display: table;
   text-align: center;
   box-sizing: border-box;
 }
 
-.bottom {
-  padding-top: 0;
+.gray:last-child {
+  padding-top: 20px;
 }
 
-.peach, .purple, .sky, .lemon, .red, .green {
+.color {
   padding: 20px 0;
   display: table-cell;
 }

@@ -3,22 +3,22 @@
 /* 回答はここに書いてね */
 
 
-.ao {
+.common {
   background-color: #00bcd4;
   color: #fff;
 }
 
-.aka {
+.error {
   background-color: #ff4081;
   color: #fff;
 }
 
-.hai {
+.disabled {
   background-color: #e5e5e5;
   color: #fff;
 }
 
-.siro {
+.shadow {
   background-color: #fff;
   color: #222;
   box-shadow: 0 1px 6px rgba(0, 0, 0,.12),0 1px 4px rgba(0, 0, 0,.12);

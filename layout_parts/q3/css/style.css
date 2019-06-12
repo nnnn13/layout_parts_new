@@ -7,7 +7,7 @@
   margin: 0 auto;
 }
 
-.table th, tbody td {
+.table th, .tbody td {
   border: solid #dedede 1px;
   padding: 10px 0;
 }

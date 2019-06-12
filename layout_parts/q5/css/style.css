@@ -4,13 +4,6 @@
 
 /* １と８の上下、::afterの使い所 */
 
-/* 9 */
-.indigo {
-  background-color: #2b69a3;
-  position: fixed;
-  top: 10px;
-  left: 10px;
-} 
 
 .gray {
   width: 500px;
@@ -22,18 +15,18 @@
   box-sizing: border-box;
 }
 
-.pink, .turquoise, .skin, .brown, .soil, .vanilla, .discord, .water, .indigo {
+.square {
   width: 100px;
   height: 100px;
   text-align: center;
   line-height: 100px;
   font-size: 30px;
   font-weight: bold;
-}
-
-.pink, .turquoise, .skin, .brown, .soil, .vanilla, .discord, .water {
   position: absolute;
 }
+
+/* .pink, .turquoise, .skin, .brown, .soil, .vanilla, .discord, .water {
+} */
 
 .pink:after {
   width: 20px;
@@ -44,7 +37,7 @@
   right: 0; 
   content: "";
   /* z-index: 9; */
-
+  
 }
 
 /* 8 */
@@ -118,5 +111,13 @@
 /* .one {
   z-index: 9;
 } */
+
+/* 9 */
+.indigo {
+  background-color: #2b69a3;
+  position: fixed;
+  top: 10px;
+  left: 10px;
+} 
 
 /* 回答はここに書いてね */
